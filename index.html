@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang=blue !important;
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>University Certificate</title>
+    <link rel="stylesheet" href="Assets/Styles/styles.css" />
   </head>
   <body>
     <header>
       <h1>University Certificate</h1>
+      <h2>Navigation Bar</h2>
       <nav>
         <ul>
           <li><a href="#Info">Personal Information</a></li>
@@ -19,11 +21,7 @@
     </header>
     <section id="Info">
       <h2>Personal information</h2>
-      <img
-        src="Assets/Images/Profile.jpg"
-        alt="Bassel's Profile Picture"
-        width="200"
-      />
+      <img src="Assets/Images/Profile.jpg" alt="Bassel's Profile Picture" width="200" id="Profile"/>
       <p><strong>Full Name:</strong> Bassel Al-Shaar</p>
       <p><strong>Age: </strong>21</p>
       <p>
@@ -33,7 +31,7 @@
     </section>
     <section id="Material">
       <h2>Material</h2>
-      <ul>
+      <ol>
         <li>Database Systems</li>
         <li>Data Structures and Algorithms</li>
         <li>Numerical Methods</li>
@@ -45,18 +43,18 @@
         <li>Software Engineering and System Design</li>
         <li>Probability and Statistics</li>
         <li>Work Ready Now</li>
-      </ul>
+      </ol>
     </section>
     <section id="Skills">
       <h2>Skills</h2>
-      <ul>
+      <ol>
         <li>C++</li>
         <li>Python</li>
         <li>Office</li>
         <li>Computer Hardware</li>
         <li>Photography</li>
         <li>Videography</li>
-      </ul>
+      </ol>
     </section>
     <section id="Schedule">
       <h2>Schedule</h2>
@@ -72,7 +70,7 @@
           <th>5:00-5:30</th>
         </tr>
         <tr>
-          <td>Monday</td>
+          <td id="Day">Monday</td>
           <td></td>
           <td></td>
           <td>DataBase Systems</td>
@@ -82,7 +80,7 @@
           <td></td>
         </tr>
         <tr>
-          <td>Tuesday</td>
+          <td id="Day">Tuesday</td>
           <td></td>
           <td>Numerical Methods</td>
           <td>Theory of Computation</td>
@@ -92,7 +90,7 @@
           <td></td>
         </tr>
         <tr>
-          <td>Wednesday</td>
+          <td id="Day">Wednesday</td>
           <td></td>
           <td></td>
           <td>DataBase Systems</td>
@@ -102,7 +100,7 @@
           <td>DataBase Systems Lab</td>
         </tr>
         <tr>
-          <td>Thursday</td>
+          <td id="Day">Thursday</td>
           <td></td>
           <td>Numerical Methods</td>
           <td>Theory of Computation</td>
@@ -112,7 +110,7 @@
           <td></td>
         </tr>
         <tr>
-          <td>Friday</td>
+          <td id="Day">Friday</td>
           <td>Principles of Accounting</td>
           <td></td>
           <td></td>
